@@ -20,7 +20,16 @@ There are no external cookbook dependencies.
 
 ## <a name="attributes"></a> Attributes
 
+    # install location
     node['shunit2']['location'] = '/usr/local/shunit2'
+
+    # install github repos
+    node['shunit2']['git_url'] = 'https://github.com/hnizdil/shunit2.git'
+    node['shunit2']['git_ref'] = 'master'
+
+    # user / group
+    node['shunit2']['user'] = 'jenkins'
+    node['shunit2']['group'] = 'jenkins'
 
 ## <a name="license"></a> License and Author
 
