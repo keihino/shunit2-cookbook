@@ -20,7 +20,7 @@
 #
 
 # install location
-default['shunit2']['location'] = '/usr/local'
+default['shunit2']['location'] = '/usr/local/shunit2'
 
 # install github repos
 default['shunit2']['git_url'] = 'https://github.com/hnizdil/shunit2.git'
